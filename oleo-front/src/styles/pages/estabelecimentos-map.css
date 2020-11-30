@@ -1,0 +1,92 @@
+#page-map {
+	display: flex;
+	height: 100vh;
+	position: relative;
+	width: 100vw;
+}
+
+#page-map aside {
+	background: linear-gradient(329.54deg, #292947 0%, #292947 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 80px;
+	width: 440px;
+}
+
+#page-map aside h2 {
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 42px;
+	margin-top: 64px;
+}
+
+#page-map aside p {
+	line-height: 20px;
+	margin-top: 24px;
+}
+
+#page-map aside footer {
+	display: flex;
+	flex-direction: column;
+	line-height: 24px;
+}
+
+#page-map aside footer strong {
+	font-weight: 800;
+}
+
+#page-map .leaflet-container {
+	z-index: 5;
+}
+
+#page-map .create-estabelecimento {
+	align-items: center;
+	background-color: #15c3d6;
+	border-radius: 20px;
+	bottom: 40px;
+	display: flex;
+	height: 64px;
+	justify-content: center;
+	position: absolute;
+	right: 40px;
+	transition: background-color 0.2s;
+	width: 64px;
+	z-index: 10;
+}
+
+#page-map .create-estabelecimento:hover {
+	background-color: #17d6eb;
+}
+
+#page-map .map-popup .leaflet-popup-content-wrapper {
+	background-color: #ffffffcc;
+	border-radius: 20px;
+	box-shadow: none;
+}
+
+#page-map .map-popup .leaflet-popup-content {
+	align-items: center;
+	color: #0089a5;
+	display: flex;
+	font-size: 20px;
+	font-weight: bold;
+	justify-content: space-between;
+	margin: 8px 12px;
+}
+
+#page-map .map-popup .leaflet-popup-content a {
+    width: 40;
+    height: 40;
+    background: #292947;
+    box-shadow: 17.2868px 41.4884px rgba(23, 142, 166, 0.16);
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-map .map-popup .leaflet-popup-tip-container {
+	display: none;
+}
